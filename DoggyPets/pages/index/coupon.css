@@ -1,0 +1,21 @@
+.coupon {
+    display: inline-flex;
+    color: white;
+    position: relative;
+   /* padding-left: .5rem;
+    padding-right: .5rem;
+    margin: 1rem; */
+    /** 这里不能用百分号，因为百分号是分别相对宽和高计算的，会导致弧度不同  */
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    overflow: hidden;
+}
+
+.coupon-info {
+    padding-left: 1rem;
+    /* padding-right: 1rem; */
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    position: relative;
+    min-width: 15rem;
+}
